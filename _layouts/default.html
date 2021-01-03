@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+        <h1 style="display: inline;">{{ site.title | default: site.github.repository_name }}</h1>
+        <img id="profile" src="https://avatars2.githubusercontent.com/u/15859400?s=460&amp;u=99dba00bd8b1be89007538a172e72e9727aa1c34&amp;v=4" alt="old me but fitter" style="display: inline;border-radius: 50% !important;padding-top: 0px;margin-top: -12px;width: 55px;" width="44em" align="right">
+        {% if site.show_downloads %}
+        <ul>
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+        </ul>
+        {% endif %}
+        
+    </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+    </div>
+    <footer>
+      <p><span><a href="/Jain-Karan/RESUME">View Resume</a></span></p>
+      <p><span><a href="mailto:{{site.e-mail}}">Send e-Mail</a></span></p>
+      <p><span><a href="{{site.linkedin}}">Connect on LinkedIn</a></span></p>
+      <p><a href="https://github.com/orderedlist/modernist">Modernist</a> themed GitHub Pages</p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+  </body>
+</html>
