@@ -1,0 +1,78 @@
+cv:
+  name: Karan Jain
+  location: Sunnyvale, CA
+  email: karan.jain@sjsu.edu
+  phone: tel:+16696498264
+  social_networks:
+    - network: LinkedIn
+      username: kcjhere
+    - network: GitHub
+      username: Jain-Karan
+  sections:
+    skills:
+      - label: Data Engineering
+        details: Hadoop, Spark, Kafka, Hive, HBase, Cassandra, MongoDB
+      - label: Machine Learning
+        details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, Reinforcement Learning, RecSys
+      - label: Backend
+        details: .NET, C#, Python, postgres, redis, rust, VB-VBA, node.js
+      - label: Frontend
+        details: React, Svelte, Razor, HTML, CSS, JavaScript, TypeScript, jQuery
+      - label : DevOps
+        details: Azure, AWS, Kubernetes, Docker, Airflow, Prometheus
+    experience:
+      - company: San Jose State University
+        position: Instructional Student Assistant
+        location: San Jose, CA
+        start_date: 2025-02
+        highlights:
+          - 'Assisted Prof. Mark Stamp in teaching Information Security and applications of Machine Learning in it.'
+          - 'Reinforced knowledge of cryptography and network protocols through academic engagement.'
+      - company: Ernst & Young LLP
+        position: Senior Technology Consultant
+        location: Hyderabad, India
+        start_date: 2018-07
+        end_date: 2024-07
+        highlights:
+          - Developed scalable ETL pipelines with **Airflow**, **Spark**, and **Kafka**, reducing manual data processing by **80%**.
+          - Automated data quality checks and monitoring using **Airflow**, **Prometheus** and **Kibana**, reducing discrepancies by **35%**.    
+          - Streamlined big data workflows using **Hadoop** and **Spark**, improving query performance by **40%**, ensured **99.9% accuracy**, and reduced infrastructure costs by **20%**.  
+          - Transformed raw data into clean, structured datasets for machine learning with **Spark** and **MLflow** accelerating model training by **50%** and boosting predictive accuracy by **15%**, and reduced time-to-insight for data science teams.  
+          - Automated processes in *Finance, Insurance, Oil & Gas, Telecommunications, Real Estate* using **C#**, **UiPath**, **.NET** and **Azure DevOps**, saving over **100 FTE or 4000 man-hours** weekly.
+          - Built realtime analytics dashboards with **Power BI**, improving decision-making speed by **40%** across teams.
+    projects:
+      - name: Optimizing Recommender Systems with Reinforcement Learning
+        date: '[repo](https://github.com/Jain-Karan/recsysrl)'
+        highlights:
+          - 'Optimized a recommender systems using reinforcement learning , deployed over a real-time data pipeline, improving by **30% clickthrough rate**'
+          - 'Tools Used: Python: recogym, spacy, keras, tensorflow; Airflow; Kafka; Cassandra, redis, postgres'
+      - name: Domain transfer of styles using CycleGAN
+        date: '[repo](https://github.com/Jain-Karan/mlusingml)'
+        highlights:
+          - 'Developed a method to compose two semantically different classifier CNNs into composite CNN using a CycleGAN, achieved **accuracies upto 95%**'
+          - 'Tools Used: Python: PyTorch, numpy, matplotlib'
+    publications:
+        - title: 'A Fuzzy Approach to Spatio-Temporal Analysis for Pedestrian Surveillance'
+          authors:
+            - Karan Jain
+            - Rahul Raman
+          doi: '10.1007/978-981-15-1084-7\_71'
+          date: 2020-02
+    education:
+        - institution: San Jose State University
+          area: Computer Science
+          degree: Master of Science
+          start_date: 2024-08
+          end_date: 2026-05
+          highlights:
+            - 'GPA: 3.78/4.0'
+            - '**Relevant Coursework:** Reinforcement Learning and Sequential Decision Making, Functional Meta Programming, Parallel Processing, Machine Learning with Applications in Information Security, Big Data Mining and Warehousing, Distributed Databases and Transaction Processing'
+        - institution: Vellore Institute of Technology
+          area: Computer Science & Engineering
+          degree: Bachelor of Technology
+          start_date: 2014-06
+          end_date: 2018-06
+    
+design:
+  theme: engineeringresumes
+  
