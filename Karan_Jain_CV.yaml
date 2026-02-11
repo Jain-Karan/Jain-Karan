@@ -52,12 +52,12 @@ cv:
           - 'Developed a method to compose two semantically different classifier CNNs into composite CNN using a CycleGAN, achieved **accuracies upto 95%**'
           - 'Tools Used: Python: PyTorch, numpy, matplotlib'
       - name: ALLManac
-        date: '[repo]()'
+        date: '[repo](https://github.com/Jain-Karan/allmanac)'
         highlights: 
           - 'ALLManac is a TUI application that an LLM assisted almanac to manage their time, tasks, and goals. It uses a agent to generate personalized recommendations and insights based on user data and preferences.'
           - 'Tools Used: charmbracelet, Go, Langchain, Pinecone, OpenAI API'
       - name : Youtube Music Import
-        date: '[repo]()'
+        date: '[repo](https://github.com/Jain-Karan/spotify2youtube)'
         highlights:
           - 'A LLM assisted Chrome extension to import Spotify playlists to Youtube Music, built using Python, Gemini and YouTube Music API'
           - 'Tools Used: Manifest V3, Python, Gemini API, YouTube Music API'
