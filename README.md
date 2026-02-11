@@ -74,13 +74,6 @@ Achieved a **30% boost in click‑through rate**.
 Used **CycleGAN + composite CNNs** to transfer styles across domains, achieving **up to 95% accuracy**.  
 Built with **PyTorch, NumPy, Matplotlib**.
 
----
-
-## 📚 Publications
-
-**A Fuzzy Approach to Spatio‑Temporal Analysis for Pedestrian Surveillance**  
-Published in *Advances in Intelligent Systems and Computing*, 2020  
-DOI: 10.1007/978-981-15-1084-7_71
 
 ---
 
