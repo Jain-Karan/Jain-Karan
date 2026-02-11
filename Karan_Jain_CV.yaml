@@ -11,11 +11,11 @@ cv:
   sections:
     skills:
       - label: Data Engineering
-        details: Hadoop, Spark, Kafka, Hive, HBase, Cassandra, MongoDB
+        details: Hadoop, Spark, Kafka, ScyllaDB
       - label: Machine Learning
         details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, Reinforcement Learning, RecSys
       - label: Backend
-        details: .NET, C#, Python, postgres, redis, rust, VB-VBA, node.js
+        details: .NET, C#, Python, postgres, redis, rust, VBA, node.js
       - label: Frontend
         details: React, Svelte, Razor, HTML, CSS, JavaScript, TypeScript, jQuery
       - label : DevOps
