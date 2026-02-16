@@ -22,7 +22,7 @@ Sunnyvale, CA · [Mail](karan.jain@sjsu.edu) · [LinkedIn](https://www.linkedin.
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I’m a **AI Data Engineer and Machine Learning enthusiast** currently pursuing my **MS in Computer Science at San José State University**. Before grad school, I worked as a Senior Consultant at Ernst & Young LLP - building large‑scale data systems, automating enterprise workflows, and helping teams make better decisions with real‑time analytics.
 
@@ -32,7 +32,7 @@ When I’m not coding, you’ll probably find me rock climbing, hiking or travel
 
 ---
 
-## 💼 Experience Highlights
+##  Experience Highlights
 
 ### **Senior Technology Consultant — Ernst & Young (2018–2024)**
 - Built **scalable ETL pipelines** with Airflow, Spark, and Kafka → cut manual processing by **80%**  
@@ -45,7 +45,7 @@ When I’m not coding, you’ll probably find me rock climbing, hiking or travel
 ### **Instructional Student Assistant — SJSU (2025–present)**
 Supporting the [redacted] course under Prof. [redacted].
 
-## 🧠 Technical Toolkit
+##  Technical Toolkit
 
 ### **Data Engineering**
 Hadoop · Spark · Kafka · Hive · HBase · Cassandra · MongoDB
@@ -64,27 +64,27 @@ Azure · AWS · Kubernetes · Docker · Airflow · Prometheus
 
 ---
 
-## 🛠️ Projects
+##  Projects
 
-### 🎯 **Optimizing Recommender Systems with Reinforcement Learning**
+###  **Optimizing Recommender Systems with Reinforcement Learning**
 A real‑time RL‑powered recommender system built with **Recogym, TensorFlow, Kafka, Airflow, Cassandra, Redis, and Postgres**.  
 Achieved a **30% boost in click‑through rate**.
 
-### 🎨 **Domain Transfer of Styles using CycleGAN**
+###  **Domain Transfer of Styles using CycleGAN**
 Used **CycleGAN + composite CNNs** to transfer styles across domains, achieving **up to 95% accuracy**.  
 Built with **PyTorch, NumPy, Matplotlib**.
 
 
 ---
 
-## 🎓 Education
+## Education
 
 **San José State University** — MS Computer Science (2024–2026)  
 **Vellore Institute of Technology** — B.Tech Computer Science (2014–2018)
 
 ---
 
-## 🌱 What I’m Exploring Now
+## What I’m Exploring Now
 - Reinforcement learning for large‑scale personalization  
 - Distributed ML systems  
 - Rust for backend and systems programming  
@@ -92,7 +92,7 @@ Built with **PyTorch, NumPy, Matplotlib**.
 
 ---
 
-## 🤝 Let’s Connect
+## Let’s Connect
 
 If you’re into data engineering, ML systems, distributed computing - feel free to reach out. Always happy to collaborate, learn, and build cool things.
 
