@@ -69,7 +69,7 @@ cv:
           end_date: 2026-05
           highlights:
             - 'GPA: 3.78/4.0'
-            - '**Coursework:** Reinforcement Learning and Sequential Decision Making, Functional Meta Programming, Parallel Processing, Machine Learning with Applications in Information Security, Big Data Mining and Warehousing, Distributed Databases and Transaction Processing, Quantum Computing, Quantum Information Science'
+            - '**Coursework:** Quantum Computing, Quantum Information Science,Reinforcement Learning and Sequential Decision Making, Functional Meta Programming, Parallel Processing, Machine Learning with Applications in Information Security, Big Data Mining and Warehousing, Distributed Databases and Transaction Processing'
         - institution: Vellore Institute of Technology
           area: Computer Science & Engineering
           degree: Bachelor of Technology
