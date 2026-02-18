@@ -21,13 +21,6 @@ cv:
       - label : DevOps
         details: Azure, AWS, Kubernetes, Docker, Airflow, Prometheus
     experience:
-      - company: San Jose State University
-        position: Instructional Student Assistant
-        location: San Jose, CA
-        start_date: 2025-02
-        highlights:
-          - 'Assisted Prof. Mark Stamp in teaching Information Security and applications of Machine Learning in it.'
-          - 'Reinforced knowledge of cryptography and network protocols through academic engagement.'
       - company: Ernst & Young LLP
         position: Senior Technology Consultant
         location: Hyderabad, India
@@ -40,27 +33,28 @@ cv:
           - Transformed raw data into clean, structured datasets for machine learning with **Spark** and **MLflow** accelerating model training by **50%** and boosting predictive accuracy by **15%**, and reduced time-to-insight for data science teams.  
           - Automated processes in *Finance, Insurance, Oil & Gas, Telecommunications, Real Estate* using **C#**, **UiPath**, **.NET** and **Azure DevOps**, saving over **100 FTE or 4000 man-hours** weekly.
           - Built realtime analytics dashboards with **Power BI**, improving decision-making speed by **40%** across teams.
+      - company: San Jose State University
+        position: Instructional Student Assistant
+        location: San Jose, CA
+        start_date: 2025-02
+        highlights:
+          - 'Assisted Prof. Mark Stamp in teaching Information Security'
     projects:
       - name: Optimizing Recommender Systems with Reinforcement Learning
         date: '[repo](https://github.com/Jain-Karan/recsysrl)'
         highlights:
           - 'Optimized a recommender systems using reinforcement learning , deployed over a real-time data pipeline, improving by **30% clickthrough rate**'
           - 'Tools Used: Python: recogym, spacy, keras, tensorflow; Airflow; Kafka; Cassandra, redis, postgres'
-      - name: Domain transfer of styles using CycleGAN
+      - name: Generating Machine Learning Models Using Machine Learning Models
         date: '[repo](https://github.com/Jain-Karan/mlusingml)'
         highlights:
-          - 'Developed a method to compose two semantically different classifier CNNs into composite CNN using a CycleGAN, achieved **accuracies upto 95%**'
+          - 'Proposed a pipeline to generate a classification model that can classify samples without any training data. The approach uses generative models to create weights for new models. New models can classify images with **88% accuracy** without any prior training.'
           - 'Tools Used: Python: PyTorch, numpy, matplotlib'
       - name: ALLManac
         date: '[repo](https://github.com/Jain-Karan/allmanac)'
         highlights: 
           - 'ALLManac is a TUI application that an LLM assisted almanac to manage their time, tasks, and goals. It uses a agent to generate personalized recommendations and insights based on user data and preferences.'
           - 'Tools Used: charmbracelet, Go, Langchain, Pinecone, OpenAI API'
-      - name : Youtube Music Import
-        date: '[repo](https://github.com/Jain-Karan/spotify2youtube)'
-        highlights:
-          - 'A LLM assisted Chrome extension to import Spotify playlists to Youtube Music, built using Python, Gemini and YouTube Music API'
-          - 'Tools Used: Manifest V3, Python, Gemini API, YouTube Music API'
     education:
         - institution: San Jose State University
           area: Computer Science
