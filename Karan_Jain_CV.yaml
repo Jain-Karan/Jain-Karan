@@ -13,7 +13,7 @@ cv:
       - label: Data Engineering
         details: Hadoop, Spark, Kafka, ScyllaDB
       - label: Machine Learning
-        details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, Reinforcement Learning, RecSys
+        details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, RL, RecSys
       - label: Backend
         details: .NET, C#, Python, postgres, redis, rust, VBA, node.js
       - label: Frontend
