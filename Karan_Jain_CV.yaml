@@ -13,7 +13,7 @@ cv:
       - label: Data Engineering
         details: Hadoop, Spark, Kafka, ScyllaDB
       - label: Machine Learning
-        details: JAX, ONNX, PyTorch, sklearn, MLflow, Fine-tuning, Reinforcement Learning
+        details: JAX, ONNX, PyTorch, sklearn, MLflow, vLLM, Fine-tuning, Reinforcement Learning
       - label: Backend
         details: C/C++, .NET, C#, Python, postgres, redis, rust, VBA, node.js
       - label: Frontend
