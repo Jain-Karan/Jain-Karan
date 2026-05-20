@@ -13,7 +13,7 @@ cv:
       - label: Data Engineering
         details: Hadoop, Spark, Kafka, ScyllaDB
       - label: Machine Learning
-        details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, Reinforcement Learning, RecSys
+        details: PyTorch, sklearn, MLflow, Fine-tuning, LORA-PEFT, RL, RecSys
       - label: Backend
         details: .NET, C#, Python, postgres, redis, rust, VBA, node.js
       - label: Frontend
@@ -53,7 +53,7 @@ cv:
       - name: ALLManac
         date: '[repo](https://github.com/Jain-Karan/allmanac)'
         highlights: 
-          - 'ALLManac is a TUI application that an LLM assisted almanac to manage their time, tasks, and goals. It uses a agent to generate personalized recommendations and insights based on user data and preferences.'
+          - 'ALLManac is a LLM assisted TUI based calmanac to manage their time, tasks, and goals. It uses a agent to generate personalized recommendations and insights based on user data and preferences.'
           - 'Tools Used: charmbracelet, Go, Langchain, Pinecone, OpenAI API'
     education:
         - institution: San Jose State University

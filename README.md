@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 # 👋 Hey there, I’m **Karan Jain**  
 ### AI Data Engineer • ML Practitioner • Backend Dev • Cloud & DevOps Explorer  
-Sunnyvale, CA · [Mail](karan.jain@sjsu.edu) · [LinkedIn](https://www.linkedin.com/in/Ja1nKaran) · [GitHub](https://github.com/Jain-Karan) · [Resume](https://github.com/Jain-Karan/Jain-Karan/releases/latest/download/resume.pdf)
+Sunnyvale, CA · [Mail](mailto:karan.jain@sjsu.edu) · [LinkedIn](https://www.linkedin.com/in/Ja1nKaran) · [GitHub](https://github.com/Jain-Karan) · [Resume](https://github.com/Jain-Karan/Jain-Karan/releases/latest/download/resume.pdf)
 
 ---
 
