@@ -15,7 +15,7 @@ cv:
       - label: Machine Learning
         details: JAX, ONNX, PyTorch, sklearn, MLflow, Fine-tuning, Reinforcement Learning
       - label: Backend
-        details: C++, .NET, C#, Python, postgres, redis, rust, VBA, node.js
+        details: C/C++, .NET, C#, Python, postgres, redis, rust, VBA, node.js
       - label: Frontend
         details: React, Svelte, Razor, HTML, CSS, JavaScript, TypeScript, jQuery
       - label : DevOps
