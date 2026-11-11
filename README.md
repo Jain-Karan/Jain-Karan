@@ -66,6 +66,20 @@ Azure · AWS · Kubernetes · Docker · Airflow · Prometheus
 
 ##  Projects
 
+Each repo below has a seeded benchmark you can rerun, CI that gates on it, and a "how it got
+here" log: the problems the benchmark surfaced, each fixed in its own pull request with a
+regression test. The data is synthetic, and each README says what the numbers do and don't show.
+
+###  [**EnterpriseRAGPlatform**](https://github.com/Jain-Karan/enterprise-rag-platform): multi-tenant retrieval
+RAG service over **SharePoint, Confluence and S3**, with layout-aware chunking, hybrid **BM25 + vector** retrieval, reranking, per-tenant isolation, and generation through **LangChain** (Claude, Azure AI Foundry). Adding a source to a tenant is a YAML change, and `ragp onboard` benchmarks the tenant on day one.
+- Layout-aware chunks kept the document's identity with **98.7%** of retrieved answers, versus **49.4%** for fixed windows
+- Five ranking bugs found through benchmark misses ([issues](https://github.com/Jain-Karan/enterprise-rag-platform/issues?q=is%3Aissue)) took recall@5 from **88.4% to 98.7%** and MRR from **0.866 to 0.946**
+
+###  [**AgenticWorkflowEngine**](https://github.com/Jain-Karan/agentic-workflow-engine): claims intake with a human in the loop
+**LangGraph** agent that classifies, enriches and routes insurance claims through **MCP** tool servers for ERP and ticketing systems. It uses backoff, idempotency keys on every write, and an `interrupt()` approval gate on payouts over $1,000.
+- 2,000-ticket backlog under injected API faults (429s, 503s, timeouts after commit): **0 duplicate payments**, **0 failed tickets**, **76.9%** handled with no human touch
+- Found that retries were writing audit notes twice (**46 → 0**), made the fault benchmark reproducible, and calibrated classifier confidence so correct tickets stop bouncing to humans (**21.1% → 15.3%**), with confident-but-wrong held at 0
+
 ###  **Optimizing Recommender Systems with Reinforcement Learning**
 A real‑time RL‑powered recommender system built with **Recogym, TensorFlow, Kafka, Airflow, Cassandra, Redis, and Postgres**.  
 Achieved a **30% boost in click‑through rate**.
