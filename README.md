@@ -80,6 +80,11 @@ RAG service over **SharePoint, Confluence and S3**, with layout-aware chunking, 
 - 2,000-ticket backlog under injected API faults (429s, 503s, timeouts after commit): **0 duplicate payments**, **0 failed tickets**, **76.9%** handled with no human touch
 - Found that retries were writing audit notes twice (**46 → 0**), made the fault benchmark reproducible, and calibrated classifier confidence so correct tickets stop bouncing to humans (**21.1% → 15.3%**), with confident-but-wrong held at 0
 
+###  [**LLMEvalHarness**](https://github.com/Jain-Karan/llm-eval-harness): evals and a release gate for RAG apps
+Per-tenant evaluation harness scoring **faithfulness, retrieval recall, correctness, abstention, PII leaks and cost per query**, with **LLM-as-judge**, response-boundary guardrails, **Langfuse** tracing, and a CI gate that blocks a release worse than production, overall or for any single tenant.
+- Blocked an injected prompt regression affecting **21 of 117 answers (17.9%)**, with or without guardrails; a cost-optimized prompt passed at **-42.1%** cost per query with no metric moved
+- Found that better guardrails were *hiding* the broken prompt from the gate (guarded output scored identically to production), and fixed it by gating on how often the guardrails fire
+
 ###  **Optimizing Recommender Systems with Reinforcement Learning**
 A real‑time RL‑powered recommender system built with **Recogym, TensorFlow, Kafka, Airflow, Cassandra, Redis, and Postgres**.  
 Achieved a **30% boost in click‑through rate**.
