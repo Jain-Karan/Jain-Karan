@@ -85,6 +85,11 @@ Per-tenant evaluation harness scoring **faithfulness, retrieval recall, correctn
 - Blocked an injected prompt regression affecting **21 of 117 answers (17.9%)**, with or without guardrails; a cost-optimized prompt passed at **-42.1%** cost per query with no metric moved
 - Found that better guardrails were *hiding* the broken prompt from the gate (guarded output scored identically to production), and fixed it by gating on how often the guardrails fire
 
+###  [**UnifiedIntegrationLayer**](https://github.com/Jain-Karan/unified-integration-layer): SAP, Salesforce, Kafka and vendor files onto Apache Iceberg
+Declarative integration layer: each source is a YAML mapping onto one canonical customer/order model in **Apache Iceberg** (PyIceberg, DuckDB), with **source, canonical and sink contract tests** and a quarantine table for every rejected record.
+- **158 of 158** injected defects quarantined with zero false rejects; **4,070 / 4,070** orders in the correct final state across late and redelivered Kafka events
+- **77.2% less code per source** than equivalent hand-written pipelines (proven identical by tests); fixed a stale-write bug that left **334 of 1,447** streamed orders in an older state
+
 ###  **Optimizing Recommender Systems with Reinforcement Learning**
 A real‑time RL‑powered recommender system built with **Recogym, TensorFlow, Kafka, Airflow, Cassandra, Redis, and Postgres**.  
 Achieved a **30% boost in click‑through rate**.
